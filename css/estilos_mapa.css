@@ -1,0 +1,53 @@
+#control_map{                    
+	float: left;
+	width: 955px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+}
+.map{                    
+	position: relative;
+	right: 80px;
+	top:0px;                    
+        
+}
+#content_mapa{
+	float:right;
+}
+.content_list_states{
+	float:left;
+	color: #555;                    
+}
+.listaEdos{          
+	cursor:pointer;
+	margin: 11px 0px;
+	display: block;
+	font-size: 14px;
+}
+.listaEdos:hover,.listaEdosHover{
+	color: #950054;
+	font-weight: 600;
+}
+.listaEdosActive{
+	color: #950054;
+	font-weight: 600;
+}
+
+#edo{/*letras del estado*/
+	/*position: absolute;top: 120px;left: 560px;*/
+        position: relative; top: -440px;left: 265px;
+        font-size: 2em;
+	color: #950054 ;z-index: 2;
+	text-align: center;
+	width: 300px;
+}
+.escudo{                    
+	/*position: absolute; top: 160px;left: 650px;*/
+        position: relative; top: -420px;left: 355px;
+	width:120px;
+	height:120px;
+	float: left;        
+}
+.escudo_img{
+	background: transparent url(../images/escudos.png);                    
+}
+.AGU{background-position: 960px 480px;}.BCN{background-position: 840px 480px;}.BCS{background-position: 720px 480px;}.CAM{background-position: 600px 480px;}.COA{background-position: 480px 480px;}.COL{background-position: 360px 480px;}.CHP{background-position: 240px 480px;}.CHH{background-position: 120px 480px;}.DIF{background-position: 960px 360px;}.DUR{background-position: 840px 360px;}.GUA{background-position: 720px 360px;}.GRO{background-position: 600px 360px;}.HID{background-position: 480px 360px;}.JAL{background-position: 360px 360px;}.MEX{background-position: 240px 360px;}.MIC{background-position: 120px 360px;}.MOR{background-position: 960px 240px;}.NAY{background-position: 840px 240px;}.NLE{background-position: 720px 240px;}.OAX{background-position: 600px 240px;}.PUE{background-position: 480px 240px;}.QUE{background-position: 360px 240px;}.ROO{background-position: 240px 240px;}.SLP{background-position: 120px 240px;}.SIN{background-position: 960px 120px;}.SON{background-position: 840px 120px;}.TAB{background-position: 720px 120px;}.TAM{background-position: 600px 120px;}.TLA{background-position: 480px 120px;}.VER{background-position: 360px 120px;}.YUC{background-position: 240px 120px;}.ZAC{background-position: 120px 120px;}
